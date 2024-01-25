@@ -7,11 +7,8 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <>
-      <Header />
-      <Routes>
-      <Route path="/" element={<Home />}></Route>
-      </Routes>
-      <Footer />
+      <Home />
+      
     </>
   );
 }
